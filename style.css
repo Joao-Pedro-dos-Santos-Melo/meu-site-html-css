@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  padding: 0;
+  margin: auto;
+}
+
+.perfil{
+  height: 400px;
+  width: 400px;
+  border: 5px;
+  border-radius: 100px;
+}
+
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+  header{
+    background-color: #250038;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .column1{
+    display: inline;
+    width: 35%;
+  }
+
+  .column2{
+    display: inline;
+    width: 65%;
+  }
+
+  main{
+    margin-top: -100px;
+    margin: auto;
+    background-color: #9B00E8;
+  }
+
+  .jogos{
+    margin-top: 0px;
+  }
+
+  .texto{
+    background-color:#DBD1E0;
+    border: solid 2px black;
+    border-radius: 5px;
+
+  }
+
+  .jogos, .desenhos, .musica{
+    width: 1140px;
+    margin: auto;
+  }
+
+  p{
+    font-size: 1.5em;
+  }
+
+  h2{
+    font-size: 2em;
+  }
+
+  div{
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  footer{
+    background-color: #250038;
+  }
